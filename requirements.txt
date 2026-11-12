@@ -1,0 +1,8 @@
+transformers>=4.45,<5
+sentence-transformers>=3,<6
+accelerate
+faiss-cpu
+pypdf
+pandas
+numpy
+torch
