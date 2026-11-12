@@ -1,0 +1,24 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+# Credentials
+.env
+.env.*
+.streamlit/secrets.toml
+# Private input and extracted content
+*.pdf
+pdf_rag_index/
+*.faiss
+documents.json
+# Model downloads and logs
+.cache/
+models/
+*.safetensors
+*.bin
+*.log
+# OS files
+.DS_Store
+Thumbs.db
